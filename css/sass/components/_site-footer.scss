@@ -1,0 +1,65 @@
+@use "../abstracts/" as *;
+.footer {
+  background-color: $body-text-color;
+  color: $color-neutral-white;
+  padding: $size-35 $size-0 $size-60 $size-0;
+  a {
+    color: $color-neutral-white;
+    text-decoration: none;
+    letter-spacing: $letter-spacing-loose;
+
+    &:is(:hover, :focus) {
+      color: $color-neutral-white;
+    }
+  }
+  >div {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    row-gap: 0.5rem;
+    padding-right: 0px;
+    font-size: 12px;
+  }
+  >div>div {
+    grid-column: 11/18;
+}
+>div img {
+  grid-column: 12/19;
+  width: 130px;
+}
+}
+
+.footerBottom {
+  background-color: #D2D1CF;
+  .footer-split {
+    display: grid;
+    row-gap: 1rem;
+    text-align: center;
+    @include mq(medium) {
+    grid-template-columns: 12fr 3fr;
+    text-align: left;
+    }
+    padding: 20px 0px;
+    .footer-bottom-text p {
+      font-size: 12px;
+      color: var(--col-accent-black-700);
+      margin: 0;
+      line-height: 18px;
+    }
+    .footer-right-logo {
+      margin-inline:auto;
+      @include mq(medium) {
+      margin-inline-start: auto;
+      margin-inline-end: 0;
+      }
+      img {
+        width: 140px;
+      }
+  }
+}
+}
+.child_1.active + .child_2 .col1-fb-img{
+  bottom: 3rem;
+}
+.footer-space p {
+  padding-bottom: 15px;
+}

@@ -1,0 +1,135 @@
+$-col-black-100: hsla(0, 0%, 51%, 0.502);
+$-col-black-200: #585a5f;
+$-col-black-300: hsla(21, 84%, 93%, 0.25);
+$-col-black-400: #3f3f40;
+$-col-black-500: #4A4F54;
+$-col-black-grey: #333333;
+$-col-body-font-family: #3e3e3e;
+$-col-black-600: #343434;
+$-col-black-700: #313131;
+$-col-black-800: #181818;
+$-col-brwon-800: #ad3200;
+$-col-brown-900: #9d300c;
+$-col-orange-800: #ea6357;
+$-col-orange-900: #AC3C72;
+$-col-blue-100: #592C82;
+$-col-grey-100: #e6e8ea;
+// $-col-blue-900: #00adee;
+// $-col-accent-100: #0880ae;
+// $-col-accent-200: #0068b7;
+// $-col-accent-300: #005587;
+// $-col-accent-400: #003b71;
+// $-col-accent-500: #033f63;
+// $-col-green: #29b1ad;
+$-col-black: #000000;
+$-col-black-shadow1: hsla(0, 0%, 0%, 0.25);
+$-col-black-shadow2: hsla(0, 0%, 0%, 0.1);
+$-col-bg-header: hsla(203, 70%, 10%, 0.1);
+$-col-bg-sandle-light: #eae5e2;
+$-col-bg-sandle-dark: #fce7dc;
+$-col-bg-body: #fff8f8;
+$-col-white: white;
+$-col-SectionLabel: #f2f2f2;
+$-col-shadow1: #e0e0e0;
+$-col-bg-header-light: #e0e4e5;
+$-col-shadow4: #cccccc;
+$-col-red: #c8102e;
+$-col-isi-arrow: #7a99ac;
+$-col-main-bg: #eae5e2;
+//$-col-primary-sky: #28bef3;
+$-col-primary-dark: #081f2d;
+//$-col-hero-bg: url(../images/bg_banner.png);
+$-col-hero-bg: url(https://treatmentperspectivescdnprod.azureedge.net/c309-p2-website/rOZma9sfMlWCRJXY1z2H8G0NgpBySITueF5LvQqP.png);
+$-col-hero-bg-small: url(https://treatmentperspectivescdnprod.azureedge.net/c309-p2-website/0kUygoVR457jcHwCSX69Iu1iqeaY2DBATmvrKhEL.png);
+$-col-hero-outline: url(https://treatmentperspectivescdnprod.azureedge.net/c309-p2-website/hnk15xop2gX9OQ04GBzyvIwM6lYaecrfUNKEsqdW.png);
+$colors: (
+  "col-neutral": (
+    "black": $-col-black,
+    "black-shadow1": $-col-black-shadow1,
+    "black-shadow2": $-col-black-shadow2,
+    "bg-header": $-col-bg-header,
+    "bg-sandle-light": $-col-bg-sandle-light,
+    "bg-sandle-dark": $-col-bg-sandle-dark,
+    "bg-body": $-col-bg-body,
+    "white": $-col-white,
+    "SectionLabel": $-col-SectionLabel,
+    "shadow1": $-col-shadow1,
+    "bg-header-light": $-col-bg-header-light,
+    "shadow4": $-col-shadow4,
+    "red": $-col-red,
+    "isi-arrow": $-col-isi-arrow,
+    //"primary-sky": $-col-primary-sky,
+    "primary-dark": $-col-primary-dark,
+    "hero-bg": $-col-hero-bg,
+    "hero-outline": $-col-hero-outline,
+    "hero-bg-small": $-col-hero-bg-small,
+    "black-grey": $-col-black-grey,
+    "main-bg": $-col-main-bg,
+    "grey-100": $-col-grey-100,
+  ),
+  "col-accent": (
+    "black-100": $-col-black-100,
+    "black-200": $-col-black-200,
+    "black-300": $-col-black-300,
+    "black-400": $-col-black-400,
+    "black-500": $-col-black-500,
+    "body-font-family": $-col-body-font-family,
+    "black-600": $-col-black-600,
+    "black-700": $-col-black-700,
+    "black-800": $-col-black-800,
+  ),
+  "col-primary": (
+    "brwon-100": $-col-brwon-800,
+    "brwon-200": $-col-brown-900,
+    "orange-300": $-col-orange-800,
+    "orange-400": $-col-orange-900,
+    "blue-100": $-col-blue-100, 
+    //"blue-600": $-col-blue-900,
+    // "accent-100": $-col-accent-100,
+    // "accent-200": $-col-accent-200,
+    // "accent-300": $-col-accent-300,
+    // "accent-400": $-col-accent-400,
+    // "accent-500": $-col-accent-500,
+  ),
+);
+
+//contextual color tokens
+$color-neutral-black: var(--col-neutral-black);
+$color-neutral-black-shadow1: var(--col-neutral-black-shadow1);
+$color-neutral-black-shadow2: var(--col-neutral-black-shadow2);
+$color-neutral-bg-header: var(--col-neutral-bg-header);
+$color-neutral-bg-sandle-light: var(--col-neutral-bg-sandle-light);
+$color-neutral-bg-sandle-dark: var(--col-neutral-bg-sandle-dark);
+$color-neutral-bg-body: var(--col-neutral-bg-body);
+$color-neutral-white: var(--col-neutral-white);
+$color-neutral-SectionLabel: var(--col-neutral-SectionLabel);
+$color-neutral-shadow1: var(--col-neutral-shadow1);
+$color-neutral-bg-header-light: var(--col-neutral-bg-header-light);
+$color-neutral-shadow4: var(--col-neutral-shadow4);
+$color-neutral-red: var(--col-neutral-red);
+$color-neutral-isi-arrow: var(--col-neutral-isi-arrow);
+//$color-neutral-primary-sky: var(--neutral-primary-sky);
+$color-neutral-primary-dark: var(--col-neutral-primary-dark);
+$color-neutral-hero-bg: var(--col-neutral-hero-bg);
+$color-neutral-hero-bg-small: var(--col-neutral-hero-bg-small);
+$color-neutral-green: var(--col-neutral-green);
+$color-accent-100: var(--col-accent-black-100);
+$color-accent-200: var(--col-accent-black-200);
+$color-accent-300: var(--col-accent-black-300);
+$color-accent-400: var(--col-accent-black-400);
+$color-accent-500: var(--col-accent-black-500);
+$body-text-color: var(--col-body-font-family);
+$color-accent-600: var(--col-accent-black-600);
+$color-accent-700: var(--col-accent-black-700);
+$color-accent-800: var(--col-accent-black-800);
+$color-primary-brwon-100: var(--col-primary-brwon-100);
+$color-primary-brwon-200: var(--col-primary-brwon-200);
+$color-primary-orange-300: var(--col-primary-orange-300);
+$color-primary-orange-400: var(--col-primary-orange-400);
+$color-primary-blue-100: var(--col-primary-blue-500);
+// $color-primary-blue-600: var(--primary-blue-600);
+// $color-primary-accent-100: var(--primary-accent-100);
+// $color-primary-accent-200: var(--primary-accent-200);
+// $color-primary-accent-300: var(--primary-accent-300);
+// $color-primary-accent-400: var(--primary-accent-400);
+// $color-primary-accent-500: var(--primary-accent-500);

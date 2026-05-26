@@ -1,0 +1,102 @@
+@use "colors" as *;
+@use "typography" as *;
+@use "sizes" as *;
+@use "mixins" as *;
+
+// Contextual
+$color-text-default: $color-accent-500;
+$color-background-default: $color-neutral-bg-sandle-light;
+$color-text-interactive-default: $color-accent-400;
+$color-text-interactive-hover: $color-accent-400;
+
+$letter-spacing-loose: 0.16em;
+
+$border-radius-1: ($size-5)-1;
+$border-radius-2: $size-10;
+
+$box-shadow-1: 0 $size-5 $size-10 rgb(0 0 0 / 0.05);
+$box-shadow-2: 0 $size-5 $size-10 rgb(0 0 0 / 0.15);
+
+// body
+$body-font-family: $font-family-base;
+$body-font-size: $font-size-400;
+$body-line-height: 1.25;
+$body-font-weight: $font-weight-default;
+$body-text-color: $color-text-default;
+$body-background-color: $color-neutral-bg-sandle-light;
+$link-color: $color-text-interactive-default;
+$link-color-hover: $color-text-interactive-hover;
+
+$heading-font-family: $font-family-base;
+$heading-color-default: $body-text-color;
+$heading-letter-spacing: $letter-spacing-loose;
+$heading-line-height: 1;
+
+// layout
+$grid-gap: $size-10;
+$flex-group-gap: $size-5;
+
+$hero-padding-block: clamp(15rem, 15vh, 20rem);
+
+$section-padding-block: clamp(5rem, 10vh, 6rem);
+
+$card-body-padding: $size-15;
+$sizes-50: 1.25rem;
+@include mq(large){
+    $sizes-50: 3.125rem;
+}
+$container-min-margin-inline: $sizes-50;
+$container-max-width: 64rem;
+$container-max-width-narrow: 40rem;
+$container-max-width-wide: 84rem;
+
+// site header
+$site-header-background-color: $color-neutral-bg-header-light;
+$site-header-color: $color-accent-700;
+$site-header-padding: $size-10 0;
+$site-header-margin: 0;
+
+//navigation
+$navigation-color: $color-accent-700;
+$navigation-color-hover: $color-accent-700;
+$navigation-font-size: $font-size-100;
+$navigation-gap: $size-15;
+
+// site footer
+$footer-background-color: $color-neutral-bg-header;
+$footer-text-color: $color-accent-700;
+$footer-link-color: $color-accent-700;
+$footer-link-color-hover: $color-accent-700;
+$footer-link-font-family: $font-family-base;
+
+//buttons
+$button-font-family: $font-family-base;
+$button-font-size: $font-size-100;
+$button-font-weight: $font-weight-bold;
+$button-text-transform: none;
+$button-padding: 0.75em 2em;
+$button-border: 0;
+$button-border-radius: $border-radius-1;
+
+$button-accent-color: $color-primary-orange-400;
+$button-accent-background: $color-primary-brwon-200;
+$button-accent-color-hover: $color-primary-orange-400;
+$button-accent-background-hover: $color-primary-brwon-200;
+$button-primary-color: $color-primary-orange-300;
+$button-primary-color-hover: $color-primary-orange-300;
+
+// cards
+$card-flow-spacing: $size-5;
+$card-padding: $size-15;
+$card-shadow: $box-shadow-1;
+$card-border-radius: $border-radius-2;
+
+// forms
+$form-label-color: $body-text-color;
+$form-label-font-family: $body-font-family;
+$form-label-font-weight: $font-weight-bold;
+$form-label-font-size: $body-font-size;
+
+$form-input-color: $body-text-color;
+$form-input-font-size: $body-font-size;
+$form-placeholder-font-size: $body-font-size;
