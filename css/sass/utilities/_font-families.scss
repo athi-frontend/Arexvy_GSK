@@ -1,0 +1,14 @@
+@use "../abstracts/typography" as *;
+
+.ff-base {
+  font-family: $font-family-base;
+}
+.ff-accent {
+  font-family: $font-family-accent;
+}
+.ff-secondary-medium {
+  font-family: $font-family-secondary-medium;
+}
+.ff-secondary-medium {
+  font-family: $font-family-secondary-bold;
+}

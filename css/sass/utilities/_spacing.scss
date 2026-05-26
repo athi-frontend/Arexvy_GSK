@@ -1,0 +1,169 @@
+@use "../abstracts" as *;
+
+.section {
+  padding-block: $section-padding-block;
+}
+
+.mx-auto {
+  margin-inline: auto;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-25 {
+  padding-top: 25px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.pl-30 {
+  padding-left: 30px;
+}
+.pr-30 {
+  padding-right: 30px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-30 {
+  padding: 30px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.mr-30 {
+  margin-right: 30px;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-30 {
+  margin: 30px;
+}
+
+@each $size-name,
+$size-value in $sizes {
+  .margin {
+    &-#{$size-name} {
+      margin: $size-value;
+    }
+
+    &-block-start-#{$size-name} {
+      margin-block-start: $size-value;
+    }
+
+    &-block-end-#{$size-name} {
+      margin-block-end: $size-value;
+    }
+
+    &-block-#{$size-name} {
+      margin-block: $size-value;
+    }
+
+    &-inline-start-#{$size-name} {
+      margin-inline-start: $size-value;
+    }
+
+    &-inline-end-#{$size-name} {
+      margin-inline-end: $size-value;
+    }
+
+    &-inline-#{$size-name} {
+      margin-inline: $size-value;
+    }
+  }
+
+  .padding {
+    &-#{$size-name} {
+      padding: $size-value;
+    }
+
+    &-block-start-#{$size-name} {
+      padding-block-start: $size-value;
+    }
+
+    &-block-end-#{$size-name} {
+      padding-block-end: $size-value;
+    }
+
+    &-block-#{$size-name} {
+      padding-block: $size-value;
+    }
+
+    &-inline-start-#{$size-name} {
+      padding-inline-start: $size-value;
+    }
+
+    &-inline-end-#{$size-name} {
+      padding-inline-end: $size-value;
+    }
+
+    &-inline-#{$size-name} {
+      padding-inline: $size-value;
+    }
+  }
+}
